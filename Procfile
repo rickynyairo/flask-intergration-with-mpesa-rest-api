@@ -1,0 +1,1 @@
+web: gunicorn -b :$PORT --pythonpath app.app:app --log-file=-
